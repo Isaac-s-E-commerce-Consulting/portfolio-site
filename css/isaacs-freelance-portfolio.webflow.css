@@ -12,10 +12,6 @@
   display: block;
 }
 
-.w-form-formrecaptcha {
-  margin-bottom: 8px;
-}
-
 @media screen and (max-width: 991px) {
   .w-layout-blockcontainer {
     max-width: 728px;
@@ -1564,6 +1560,15 @@ figcaption {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.div-block-7 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
